@@ -1,7 +1,7 @@
 vi:
   layouts:
     application:
-      title: "Sample page"
+      title: "Ruby on Rails Tutorial Sample App"
   static_pages:
     home:
       title: "Trang chủ"
