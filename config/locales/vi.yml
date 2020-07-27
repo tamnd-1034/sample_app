@@ -1,2 +1,21 @@
 vi:
-  title: Chào mừng!
+  layouts:
+    application:
+      title: "Sample page"
+  static_pages:
+    home:
+      title: "Trang chủ"
+      content_1: "Đây là trang chủ của "
+      content_2: "sample application."
+      link_title_1: "Ruby on Rails Tutorial"
+    help:
+      title: "Help"
+      content_1: "Bạn có thể tìm trợ giúp ở the Ruby on Rails Tutorial tại "
+      content_2: "Để hiểu thêm về trang web, truy cập "
+      content_3: "Ruby on Rails Tutorial"
+      content_4: "sách."
+      link_title_1: "Rails Tutorial Help page"
+    about:
+      title: "Về chúng tôi"
+    contact:
+      title: "Liên lạc"
