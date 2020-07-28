@@ -2,12 +2,26 @@ vi:
   layouts:
     application:
       title: "Ruby on Rails Tutorial Sample App"
+    footer:
+      content_1: "The Ruby on Rails Tutorial"
+      link_title_michael_hartl: "Michael Hartl"
+      link_title_contact_page: "Liên lạc"
+      link_title_about_page: "Về chúng tôi"
+      link_title_rails_page: "News"
+    header:
+      logo_content: "Sample App"
+      link_title_home_page: "Home"
+      link_title_help_page: "Help"
+      link_title_log_in_page: "Log in"
   static_pages:
     home:
       title: "Trang chủ"
       content_1: "Đây là trang chủ của "
       content_2: "sample application."
+      content_3: "Chào mừng đến với Sample App"
       link_title_1: "Ruby on Rails Tutorial"
+      link_title_2: "Đăng ký!"
+      link_title_3: "Kitten!!"
     help:
       title: "Help"
       content_1: "Bạn có thể tìm trợ giúp ở the Ruby on Rails Tutorial tại "
@@ -19,3 +33,7 @@ vi:
       title: "Về chúng tôi"
     contact:
       title: "Liên lạc"
+  users:
+    new:
+      title: "Đăng ký"
+      content_1: "Tạo tài khoản mới!"
