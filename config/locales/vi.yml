@@ -36,4 +36,9 @@ vi:
   users:
     new:
       title: "Đăng ký"
-      content_1: "Tạo tài khoản mới!"
+      sign_up_btn: "Tạo tài khoản"
+      success_notify: "Welcome to Sample App!"
+      faild_notify: "Thất bại. Làm ơn thử lại!"
+  shared:
+    error_messages:
+      messgage_error: "Xảy ra lỗi "
