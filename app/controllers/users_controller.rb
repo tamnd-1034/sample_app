@@ -1,10 +1,10 @@
 class UsersController < ApplicationController
   def show
     @user = User.find_by id: params[:id]
-    if @user.nil?
-      flash[:danger] = t ".show.invalid_user_notify"
-      redirect_to root_path
-    end
+    return if @user
+
+    flash[:danger] = t ".show.invalid_user_notify"
+    redirect_to root_path
   end
 
   def new
