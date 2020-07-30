@@ -13,6 +13,12 @@ vi:
       link_title_home_page: "Home"
       link_title_help_page: "Help"
       link_title_log_in_page: "Log in"
+      profile_btn: "Profile"
+      setting_btn: "Settings"
+      log_out_btn: "Log out"
+      log_in_btn: "Log in"
+      account: "Account"
+      users: "Tài khoản"
   static_pages:
     home:
       title: "Trang chủ"
@@ -39,6 +45,16 @@ vi:
       sign_up_btn: "Tạo tài khoản"
       success_notify: "Welcome to Sample App!"
       faild_notify: "Thất bại. Làm ơn thử lại!"
+    show:
+      invalid_user_notify: "Không thể tìm được tài khoản tương ứng."
   shared:
     error_messages:
       messgage_error: "Xảy ra lỗi "
+  sessions:
+    new:
+      log_in: "Đăng nhập"
+      sign_up_now: "Đăng ký!"
+      new_user: "Bạn chưa có tài khoản?"
+    create:
+      success_login_notify: "Đăng nhập thành công"
+      faild_login_notify: "Email hoặc mật khẩu bị sai"
