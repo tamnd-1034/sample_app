@@ -13,6 +13,12 @@ en:
       link_title_home_page: "Home"
       link_title_help_page: "Help"
       link_title_log_in_page: "Log in"
+      profile_btn: "Profile"
+      setting_btn: "Settings"
+      log_out_btn: "Log out"
+      log_in_btn: "Log in"
+      account: "Account"
+      users: "Users"
   static_pages:
     home:
       title: "Home"
@@ -39,6 +45,16 @@ en:
       sign_up_btn: "Create my account"
       success_notify: "Welcome to Sample App!"
       faild_notify: "Create account failed. Please try again!"
+    show:
+      invalid_user_notify: "Can not find user!"
   shared:
     error_messages:
       messgage_error: "The form contains "
+  sessions:
+    new:
+      log_in: "Log in"
+      sign_up_now: "Sign up now!"
+      new_user: "New user?"
+    create:
+      success_login_notify: "Logged in successfull!"
+      faild_login_notify: "Invalid password/email combination"
