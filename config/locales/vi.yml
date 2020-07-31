@@ -75,6 +75,7 @@ vi:
       sign_up_now: "Đăng ký!"
       new_user: "Bạn chưa có tài khoản?"
       remember_checkbox: "Lưu tài khoản"
+      forgot_pass: "(Quên mật khẩu)"
     create:
       success_login_notify: "Đăng nhập thành công"
       faild_login_notify: "Email hoặc mật khẩu bị sai"
@@ -89,6 +90,26 @@ vi:
     activate: "Xác thực"
     pass_reset: "User#password_reset"
     pass_reset_path: ", find me in app/views/user_mailer/password_reset.html.erb"
+    reset_pass: "Đặt lại mật khẩu"
+    to_reset_pass: "Click vào link dưới đây để đặt lại mật khẩu:"
+    notify_expire_time: "Link này sẽ tự động hết hạn trong 2 giờ."
+    notify_ignore_mail: "Nếu bạn không phải là người yêu cầu đặt lại tài khoản thì hãy bỏ qua mail này và mật khẩu của bạn vẫn được giữ nguyên."
   user_mailer:
     account_activation:
       subject_account_activate: "Xác thực tài khoản"
+    password_reset:
+      reset_pass: "Đặt lại mật khẩu"
+  password_resets:
+    info_send_email: "Đã gửi email đến email của bạn."
+    email_not_found: "Địa chỉ email không đúng."
+    reset_success: "Đã đặt lại mật khẩu."
+    reset_faild: "Không thể đặt lại mật khẩu."
+    cannot_empty: "không thể bỏ trống"
+    expired_reset_pass: "Đã hết hạn đặt lại mật khẩu."
+    can_not_find_user: "Không thể tìm được tài khoản."
+    new:
+      forgot_pass: "Quên mật khẩu"
+      submit_btn: "Submit"
+    edit:
+      title: "Đặt lại mật khẩu"
+      submit_btn: "Cập nhật mật khẩu"
