@@ -40,6 +40,13 @@ en:
     contact:
       title: "Contact us"
   users:
+    log_in_suggest: "Please log in."
+    delete_user_success_notify: "User deleted"
+    delete_user_faild_notify: "Can not delete user"
+    can_not_find_user: "Can not find user"
+    delete_user: "Delete"
+    confirm_delete_user: "You sure?"
+    space_with_delete: " | "
     new:
       title: "Sign up"
       sign_up_btn: "Create my account"
@@ -47,6 +54,15 @@ en:
       faild_notify: "Create account failed. Please try again!"
     show:
       invalid_user_notify: "Can not find user!"
+    edit:
+      title: "Edit user"
+      update_profile: "Update your profile"
+      submit_btn: "Save changes"
+      change_avatar: "Change"
+      success_edit_user_notify: "Profile updated"
+      faild_edit_user_notify: "Failed!"
+    index:
+      title: "All users"
   shared:
     error_messages:
       messgage_error: "The form contains "
