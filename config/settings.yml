@@ -18,7 +18,14 @@ validate:
     validate_email_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
 images:
   avatar_size: 80
-  avatar_size_in_all_users: 50
+  avatar_size_50: 50
 paginate:
   items_per_page: 10
 remember_me: 1
+micropost:
+  content:
+    max_length: 140
+    type: /%w(image/jpeg image/gif image/png)/
+  image_size: 5
+  resize_limit: "[500, 500]"
+  image_type: "image/jpeg,image/gif,image/png"
