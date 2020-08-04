@@ -47,11 +47,13 @@ vi:
     delete_user: "Xóa"
     confirm_delete_user: "Bạn có muốn xóa tài khoản?"
     space_with_delete: " | "
+    active_notify: "Kiểm tra email để xác thực tài khoản."
     new:
       title: "Đăng ký"
       sign_up_btn: "Tạo tài khoản"
       success_notify: "Welcome to Sample App!"
       faild_notify: "Thất bại. Làm ơn thử lại!"
+      email_activate_notify: "Kiểm tra email để xác minh tài khoản."
     show:
       invalid_user_notify: "Không thể tìm được tài khoản tương ứng."
     edit:
@@ -67,6 +69,7 @@ vi:
     error_messages:
       messgage_error: "Xảy ra lỗi "
   sessions:
+    activate_notify: "Kiểm tra email để xác thực tài khoản."
     new:
       log_in: "Đăng nhập"
       sign_up_now: "Đăng ký!"
@@ -75,3 +78,17 @@ vi:
     create:
       success_login_notify: "Đăng nhập thành công"
       faild_login_notify: "Email hoặc mật khẩu bị sai"
+  account_activations:
+    edit:
+      acctivated_success: "Đã xác minh tài khoản"
+      invalid_activate_link: "Link xác minh không tồn tại."
+  mailer:
+    hi: "Xin chào"
+    app: "Sample app"
+    welcome_mailer: "Chào mừng bạn đến với Sample App. Click vào link bên dưới để xác thực tài khoản."
+    activate: "Xác thực"
+    pass_reset: "User#password_reset"
+    pass_reset_path: ", find me in app/views/user_mailer/password_reset.html.erb"
+  user_mailer:
+    account_activation:
+      subject_account_activate: "Xác thực tài khoản"

@@ -47,11 +47,13 @@ en:
     delete_user: "Delete"
     confirm_delete_user: "You sure?"
     space_with_delete: " | "
+    active_notify: "Please check your email to active your account."
     new:
       title: "Sign up"
       sign_up_btn: "Create my account"
       success_notify: "Welcome to Sample App!"
       faild_notify: "Create account failed. Please try again!"
+      email_activate_notify: "Please check your email to activate your account."
     show:
       invalid_user_notify: "Can not find user!"
     edit:
@@ -67,6 +69,7 @@ en:
     error_messages:
       messgage_error: "The form contains "
   sessions:
+    activate_warning_notify: "Account not activated. Check your email for the activation link."
     new:
       log_in: "Log in"
       sign_up_now: "Sign up now!"
@@ -75,3 +78,17 @@ en:
     create:
       success_login_notify: "Logged in successfull!"
       faild_login_notify: "Invalid password/email combination"
+  account_activations:
+    edit:
+      acctivated_success: "Account activated!"
+      invalid_activate_link: "Invalid activation link"
+  mailer:
+    hi: "Hi"
+    sample_app: "Sample app"
+    welcome_mailer: "Welcome to the Sample App! Click on the link below to activate your account:"
+    activate: "Activate"
+    pass_reset: "User#password_reset"
+    pass_reset_path: ", find me in app/views/user_mailer/password_reset.html.erb"
+  user_mailer:
+    account_activation:
+      subject_account_activate: "Account activation"
