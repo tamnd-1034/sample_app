@@ -28,6 +28,7 @@ en:
       link_title_1: "Ruby on Rails Tutorial"
       link_title_2: "Sign up now!"
       link_title_3: "Kitten!!"
+      microposts_feed: "Micropost Feed"
     help:
       title: "Help"
       content_1: "Get help on the Ruby on Rails Tutorial at the"
@@ -56,6 +57,7 @@ en:
       email_activate_notify: "Please check your email to activate your account."
     show:
       invalid_user_notify: "Can not find user!"
+      microposts: "Microposts "
     edit:
       title: "Edit user"
       update_profile: "Update your profile"
@@ -68,6 +70,12 @@ en:
   shared:
     error_messages:
       messgage_error: "The form contains "
+    user_info:
+      view_profile: "View my profile"
+      microposts: "micropost"
+    micropost_form:
+      input_placeholder: "Compose new micropost..."
+      post_btn: "Post"
   sessions:
     activate_warning_notify: "Account not activated. Check your email for the activation link."
     new:
@@ -113,3 +121,17 @@ en:
     edit:
       title: "Reset password"
       submit_btn: "Update password"
+  microposts:
+    create_success: "Micropost created!"
+    create_faild: "Failed!"
+    delete_success: "Micropost deleted"
+    image_type_validate: "Must be a valid image format"
+    image_size_validate: "Should be less than 5MB"
+    image_size_notify_js: "Maximum file size is 5MB. Please choose a smaller file."
+    micropost:
+      posted: "Posted "
+      ago: " ago."
+      delete: "Delete"
+      confirm_delete: "You sure?"
+  application:
+    log_in_notify: "Please log in."

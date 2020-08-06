@@ -28,6 +28,7 @@ vi:
       link_title_1: "Ruby on Rails Tutorial"
       link_title_2: "Đăng ký!"
       link_title_3: "Kitten!!"
+      microposts_feed: "Micropost Feed"
     help:
       title: "Help"
       content_1: "Bạn có thể tìm trợ giúp ở the Ruby on Rails Tutorial tại "
@@ -56,6 +57,7 @@ vi:
       email_activate_notify: "Kiểm tra email để xác minh tài khoản."
     show:
       invalid_user_notify: "Không thể tìm được tài khoản tương ứng."
+      microposts: "Microposts "
     edit:
       title: "Cài đặt tài khoản"
       update_profile: "Thay đổi thông tin cá nhân"
@@ -68,6 +70,12 @@ vi:
   shared:
     error_messages:
       messgage_error: "Xảy ra lỗi "
+    user_info:
+      view_profile: "View my profile"
+      microposts: "micropost"
+    micropost_form:
+      input_placeholder: "Compose new micropost..."
+      post_btn: "Post"
   sessions:
     activate_notify: "Kiểm tra email để xác thực tài khoản."
     new:
@@ -113,3 +121,17 @@ vi:
     edit:
       title: "Đặt lại mật khẩu"
       submit_btn: "Cập nhật mật khẩu"
+  microposts:
+    create_success: "Thành công!"
+    create_faild: "Thất bại!"
+    delete_success: "Micropost deleted"
+    image_type_validate: "Định dạng ảnh cần thỏa mãn"
+    image_size_validate: "Kích thước ảnh phải nhỏ hơn 5MB"
+    image_size_notify_js: "Hình ảnh quá lớn. Vui lòng chọn lại (nhỏ hơn 5MB)."
+    micropost:
+      posted: "Đăng "
+      ago: " trước."
+      delete: "Xóa"
+      confirm_delete: "Bạn có muốn xóa?"
+  application:
+    log_in_notify: "Please log in."

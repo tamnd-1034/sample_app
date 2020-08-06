@@ -5,6 +5,8 @@ class UsersController < ApplicationController
   before_action :find_user, except: %i(new create index)
 
   def show
+    @microposts = @user.microposts.page(params[:page])
+                       .per Settings.paginate.items_per_page
     return if @user
 
     flash[:danger] = t ".show.invalid_user_notify"

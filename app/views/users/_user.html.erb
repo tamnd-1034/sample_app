@@ -1,5 +1,5 @@
 <li>
-  <%= gravatar_for user, size: Settings.images.avatar_size_in_all_users %>
+  <%= gravatar_for user, size: Settings.images.avatar_size_50 %>
   <%= link_to user.name, user %>
   <% if current_user.admin? && !current_user?(user) %>
     <%= t("users.space_with_delete") %>
