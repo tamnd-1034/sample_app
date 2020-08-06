@@ -49,6 +49,8 @@ en:
     confirm_delete_user: "You sure?"
     space_with_delete: " | "
     active_notify: "Please check your email to active your account."
+    follower: "Followers"
+    following: "Following"
     new:
       title: "Sign up"
       sign_up_btn: "Create my account"
@@ -67,6 +69,13 @@ en:
       faild_edit_user_notify: "Failed!"
     index:
       title: "All users"
+    follow:
+      follow: "Follow"
+    unfollow:
+      unfollow: "Unfollow"
+    show_follow:
+      view_profile: "view my profile"
+      microposts: "Microposts:"
   shared:
     error_messages:
       messgage_error: "The form contains "
@@ -76,6 +85,9 @@ en:
     micropost_form:
       input_placeholder: "Compose new micropost..."
       post_btn: "Post"
+    stats:
+      following: "following"
+      followers: "followers"
   sessions:
     activate_warning_notify: "Account not activated. Check your email for the activation link."
     new:
@@ -135,3 +147,6 @@ en:
       confirm_delete: "You sure?"
   application:
     log_in_notify: "Please log in."
+    can_not_find_user: "Can not find user"
+  relationships:
+    can_not_find_user: "Can not find user"
