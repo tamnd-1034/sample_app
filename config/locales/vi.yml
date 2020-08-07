@@ -49,6 +49,8 @@ vi:
     confirm_delete_user: "Bạn có muốn xóa tài khoản?"
     space_with_delete: " | "
     active_notify: "Kiểm tra email để xác thực tài khoản."
+    follower: "Người theo dõi"
+    following: "Đang theo dõi"
     new:
       title: "Đăng ký"
       sign_up_btn: "Tạo tài khoản"
@@ -67,6 +69,13 @@ vi:
       faild_edit_user_notify: "Thất bại!"
     index:
       title: "Tất cả tài khoản"
+    follow:
+      follow: "Theo dõi"
+    unfollow:
+      unfollow: "Bỏ theo dõi"
+    show_follow:
+      view_profile: "view my profile"
+      microposts: "Microposts:"
   shared:
     error_messages:
       messgage_error: "Xảy ra lỗi "
@@ -76,6 +85,9 @@ vi:
     micropost_form:
       input_placeholder: "Compose new micropost..."
       post_btn: "Post"
+    stats:
+      following: "Đang theo dõi"
+      followers: "Người theo dõi"
   sessions:
     activate_notify: "Kiểm tra email để xác thực tài khoản."
     new:
@@ -135,3 +147,6 @@ vi:
       confirm_delete: "Bạn có muốn xóa?"
   application:
     log_in_notify: "Please log in."
+    can_not_find_user: "Không tìm được tài khoản"
+  relationships:
+    can_not_find_user: "Không tìm được tài khoản"
