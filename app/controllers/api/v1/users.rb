@@ -3,10 +3,6 @@ module API
     class Users < Grape::API
       include API::V1::Defaults
 
-      prefix "api"
-      version "v1", using: :path
-      format :json
-
       before do
         authenticate_user!
       end

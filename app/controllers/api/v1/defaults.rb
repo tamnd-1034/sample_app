@@ -12,6 +12,14 @@ module API
           error_response(message: e.message, status: 404)
         end
 
+        rescue_from Grape::Exceptions::ValidationErrors do |e|
+          error_response(message: e.message, status: 404)
+        end
+
+        rescue_from ActiveRecord::RecordInvalid do |e|
+          error_response(message: e.message, status: 404)
+        end
+
         rescue_from :all do |e|
           if Rails.env.development?
             raise e
@@ -34,7 +42,7 @@ module API
             error!({message: message, code: error_code}, status, header)
           end
 
-          def respond_success data
+          def respond_success data = ""
             {status: "success", data: data.as_json}
           end
         end
