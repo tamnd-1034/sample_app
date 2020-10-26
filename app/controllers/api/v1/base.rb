@@ -3,6 +3,7 @@ module API
     class Base < Grape::API
       mount V1::Users
       mount V1::Auth
+      mount V1::Micropost
     end
   end
 end
